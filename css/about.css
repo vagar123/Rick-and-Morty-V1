@@ -1,0 +1,130 @@
+body{
+    background-color: #f2f2f2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu{
+    display: flex;
+    /*align-items: Alinea los elementos, teniendo en cuenta el alto
+    justifiy-contetn: Alinea los elementos, teniendo en cuenta el ancho*/
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 122, 138);
+    width: 100%;
+}
+
+.opt-menu{
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.opt-menu li{
+    list-style: none;
+    width: 15%;
+}
+
+.opt-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.opt-menu a:hover{
+    background-color: white;
+    color: black;
+    border: 5px solid white;
+}
+
+.container{
+    margin: 3% 10% 5% 10%;
+}
+
+.container h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 4%;
+}
+
+.container h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.main-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-info #perfil{
+    border-radius: 60%;
+}
+
+.main-info div p{
+    margin-left: 20px; 
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.div-img{
+    width: 20%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.div-img img{
+    transition: 0.9s;
+}
+
+.div-img img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.sec-flex{
+    display: flex;
+    align-items: center;
+}
+
+
+.flex-child{
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-right: 5%;
+    width: 40%;
+    border: 2px solid red;
+    height: 280px;
+}
+
+.flex-child img{
+    width: 30%;
+}
+
+.flex-child p{
+    width: 90%;
+    text-align: justify;
+    padding: 3%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+footer{
+    background-color: rgb(240, 122, 138);
+    color: white;
+    height: 60px;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 2%;
+}
+
+.fa-heart{
+    color: rgb(255, 0, 98);
+}

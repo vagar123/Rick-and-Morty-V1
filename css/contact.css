@@ -1,0 +1,109 @@
+body{
+    background-color: #f2f2f2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu{
+    display: flex;
+    /*align-items: Alinea los elementos, teniendo en cuenta el alto
+    justifiy-contetn: Alinea los elementos, teniendo en cuenta el ancho*/
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 122, 138);
+    width: 100%;
+}
+
+.opt-menu{
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.opt-menu li{
+    list-style: none;
+    width: 15%;
+}
+
+.opt-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.opt-menu a:hover{
+    background-color: white;
+    color: black;
+    border: 5px solid white;
+}
+
+.container{
+    margin: 3% 10% 5% 10%;
+}
+
+.container h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 4%;
+}
+
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input-form{
+    margin-bottom: 2%;
+}
+
+.input-form div{
+    width: 30%;
+    float: left;
+}
+
+.input-form input{
+    width: 60%;
+}
+
+.form-button{
+    text-align: center;
+}
+
+.form-button button{
+    background-color: rgb(44, 135, 209);
+    color: white;
+    border: 1px solid;
+    border-right:5px solid #d1d1d1 ;
+    border-bottom:5px solid #d1d1d1 ;
+    border-radius: 5px;
+    width: 15%;
+    height: 35px;
+    cursor: pointer;
+}
+
+.form-flex input{
+    height: 30px;
+    border: 1px solid rgb(240, 122, 138);
+    border-radius: 10px;
+}
+
+.options{
+    width: 40%;
+    text-align: left;
+}
+
+.opt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.opt h4{
+    text-align: center;
+}
+
+.opt input{
+    width: 4%;
+}

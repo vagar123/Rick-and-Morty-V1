@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+        <link rel="icon" type="image/png" href="images/rick.png">
+        <link rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+            integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="css/contact.css">
+    </head>
+
+    <body>
+        <nav class="main-menu">
+
+            <div>
+                <img style="padding: 3%;" src="images/titulo.png" alt=""
+                    width="200" height="80">
+            </div>
+
+            <!-- ul, Nos permite crear listas no ordenadas -->
+            <ul class="main-menu opt-menu">
+                <!-- li, Son los elementos de la lista -->
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre mi</a></li>
+                <li><a href="contact.html" target="_blank">Registro</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="container">
+            <h1>Formulario de registro</h1>
+            <form method="POST" action="" class="form-flex">
+
+                <div class="input-form">
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                    </div>
+                    <input id="nombre" name="nombre" type="text" required>
+                </div>
+
+                <div class="input-form">
+                    <div>
+                        <label for="apellido">Apellido:</label>
+                    </div>
+                    <input id="apellido" name="apellido" type="text" required>
+                </div>
+
+                <div class="input-form">
+                    <div>
+                        <label for="edad">Edad:</label>
+                    </div>
+                    <input id="edad" name="edad" type="number" required>
+                </div>
+
+                <div class="input-form">
+                    <div>
+                        <label for="email">Correo Electrónico:</label>
+                    </div>
+                    <input id="email" name="email" type="email" required>
+                </div>
+
+                <div class="input-form">
+                    <div>
+                        <label for="contrasena">Contraseña:</label>
+                    </div>
+                    <input id="contrasena" name="contrasena" type="password"
+                        required>
+                </div>
+
+                <div class="input-form">
+                    <div>
+                        <label for="fecha">Fecha de Nacimiento:</label>
+                    </div>
+                    <input id="fecha" name="fecha" type="date" required>
+                </div>
+ 
+                <section class="opt">
+                    <div class="input-form options">
+                        <h4>Género</h4>
+                        <input type="radio" name="genero" id="mujer">   
+                        <label for="mujer">Mujer</label>
+                        <input type="radio" name="genero" id="hombre">
+                        <label for="hombre">Hombre</label>
+                    </div>
+    
+                    <div class="input-form options">
+                        <h4>Deporte Favorito</h4>
+                        <input id="futbol" name="futbol" type="checkbox">
+                        <label for="futbol">Futbol</label>
+                        <input id="ciclismo" name="ciclismo" type="checkbox">
+                        <label for="ciclismo">Ciclismo</label>
+                    </div>
+                </section>
+
+                <div class="form-button">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

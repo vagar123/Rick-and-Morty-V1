@@ -1,0 +1,74 @@
+body{
+    background-color: aliceblue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu{
+    display: flex;
+    /*align-items: Alinea los elementos, teniendo en cuenta el alto
+    justifiy-contetn: Alinea los elementos, teniendo en cuenta el ancho*/
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65, 168, 236);
+    width: 100%;
+}
+
+.opt-menu{
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.opt-menu li{
+    list-style: none;
+    width: 15%;
+}
+
+.opt-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.opt-menu a:hover{
+    background-color: white;
+    color: black;
+    border: 5px solid white;
+}
+
+.container{
+    margin: 3% 10% 5% 10%;
+}
+
+.container h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 4%;
+}
+
+.sec-flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-simpsons{
+    width: 25%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.img-simpsons img{
+    width: 80%;
+    height: 80%;
+}
+
+.img-simpsons img:hover{
+    border: 3px solid rgb(65, 168, 236);
+    border-radius: 30px;
+    box-shadow: 3px 3px rgb(176, 175, 177);
+}
