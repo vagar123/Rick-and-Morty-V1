@@ -87,6 +87,16 @@ body{
     font-family: 'Roboto Mono', monospace;
 }
 
+button{
+    background-color: rgb(40, 138, 218);
+    color: white;
+    margin-top: 10px;
+    padding: 4px;
+    border: 1px solid #2e62d1;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 footer{
     background-color: rgb(240, 122, 138);
     color: white;
