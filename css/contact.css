@@ -84,7 +84,7 @@ body{
     cursor: pointer;
 }
 
-.form-flex input{
+.form-flex .inp{
     height: 30px;
     border: 1px solid rgb(240, 122, 138);
     border-radius: 10px;
