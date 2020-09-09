@@ -1,5 +1,8 @@
 body{
-    background-color: #f2f2f2;
+    background: #d3cce3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e9e4f0a1, #d3cce39f), url(fondo.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e9e4f0a1, #d3cce39f) , url(fondo.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
 }
 
 *{
@@ -15,6 +18,10 @@ body{
     justify-content: center;
     background-color: rgb(240, 122, 138);
     width: 100%;
+}
+
+.header{
+    border-bottom: 1px solid #d3cce3;
 }
 
 .opt-menu{
@@ -58,6 +65,7 @@ body{
 .character{
     width: 25%;
     margin: 3%;
+    background-color: #efebfa;
     border: 2px #e6e6e6 solid;
     border-right: 4px #dddddd solid;
     border-bottom: 4px #dddddd solid;
@@ -98,6 +106,7 @@ button{
 }
 
 footer{
+    border-top: 1px solid #d3cce3;
     background-color: rgb(240, 122, 138);
     color: white;
     height: 60px;
