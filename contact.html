@@ -32,38 +32,41 @@
 
         <div class="container">
             <h1>Formulario de registro</h1>
-            <form method="POST" action="" class="form-flex">
+            <form method="POST" action="" onsubmit="validarFormulario()" class="form-flex" >
 
                 <div class="input-form">
                     <div>
                         <label for="nombre">Nombre:</label>
                     </div>
-                    <input class="inp" id="nombre" name="nombre" type="text"
-                        required>
+                    <input class="inp" id="nombre" name="nombre" type="text">
                 </div>
 
                 <div class="input-form">
                     <div>
                         <label for="apellido">Apellido:</label>
                     </div>
-                    <input class="inp" id="apellido" name="apellido" type="text"
-                        required>
+                    <input class="inp" id="apellido" name="apellido" type="text">
                 </div>
 
                 <div class="input-form">
                     <div>
                         <label for="edad">Edad:</label>
                     </div>
-                    <input class="inp" id="edad" name="edad" type="number"
-                        required>
+                    <input class="inp" id="edad" name="edad" type="text">
+                </div>
+
+                <div class="input-form">
+                    <div>
+                        <label for="fecha">Fecha de Nacimiento:</label>
+                    </div>
+                    <input class="inp" id="fecha" name="fecha" type="date">
                 </div>
 
                 <div class="input-form">
                     <div>
                         <label for="email">Correo Electrónico:</label>
                     </div>
-                    <input class="inp" id="email" name="email" type="email"
-                        required>
+                    <input class="inp" id="email" name="email" type="email">
                 </div>
 
                 <div class="input-form">
@@ -71,16 +74,7 @@
                         <label for="contrasena">Contraseña:</label>
                     </div>
                     <input class="inp" id="contrasena" name="contrasena"
-                        type="password"
-                        required>
-                </div>
-
-                <div class="input-form">
-                    <div>
-                        <label for="fecha">Fecha de Nacimiento:</label>
-                    </div>
-                    <input class="inp" id="fecha" name="fecha" type="date"
-                        required>
+                        type="password">
                 </div>
 
                 <section class="opt">
@@ -111,7 +105,7 @@
                 </section>
 
                 <div class="form-button">
-                    <button type="submit">Enviar</button>
+                    <input type="submit" value="Enviar">
                 </div>
             </form>
         </div>
@@ -120,5 +114,8 @@
             <p>Hecho con amor por Vanessa Garnica  &copy; <i class="fas fa-heart"></i></p>
         </footer>
 
+
+        <script src="js/contact.js"></script>
+        
     </body>
 </html>
